@@ -1,0 +1,33 @@
+1.
+SELECT ctbl.CustomerNo, ctbl.UnitID, ctbl.LastName, ctbl.FirstName, ctbl.MiddleName, cdtl.EquityTerm, cdtl.EquityAmount, cdtl.MATerm, cdtl.MAAmount, cdtl.MIR, cdtl.FIRE, cdtl.LoanAmt, cdtl.IntRate, itbl.SellingPrice
+FROM CustomerTbl AS ctbl
+JOIN CustomerDtl AS cdtl ON ctbl.CustomerNo = cdtl.CustomerNo
+JOIN 
+(
+SELECT itbl1.UnitID, itbl1.LotPrice AS SellingPrice
+FROM InventoryTbl itbl1
+WHERE itbl1.Type = 'Lot Only'
+UNION
+SELECT itbl2.UnitID, itbl2.HousePrice AS SellingPrice
+FROM InventoryTbl itbl2
+WHERE itbl2.Type = 'House & lot'
+ORDER BY UnitID
+)
+AS itbl ON ctbl.UnitID = itbl.UnitID
+ORDER BY ctbl.UnitID;
+
+2. 
+UPDATE CustomerDtl
+SET IntRate = 21
+WHERE CustomerNo = 739662;
+
+3.
+DELETE FROM CustomerDtl WHERE CustomerNo = 
+(
+SELECT CustomerNo
+FROM CustomerTbl
+WHERE LastName = 'TRAMPE' AND FirstName = 'MAJORIE' AND MiddleName = 'Rivera'
+);
+
+DELETE FROM CustomerTbl
+WHERE LastName = 'TRAMPE' AND FirstName = 'MAJORIE' AND MiddleName = 'Rivera';

@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Coding\\Practice\\DOTNET\\EquityCalculatorAPI\\EquityCalculatorAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EE9CAD58-1DF1-4158-86DC-06DB000635DC}|EquityCalculatorAPI\\EquityCalculatorAPI.csproj|d:\\coding\\practice\\dotnet\\equitycalculatorapi\\equitycalculatorapi\\equitycalculatorapi\\controllers\\equitycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE9CAD58-1DF1-4158-86DC-06DB000635DC}|EquityCalculatorAPI\\EquityCalculatorAPI.csproj|solutionrelative:equitycalculatorapi\\controllers\\equitycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE9CAD58-1DF1-4158-86DC-06DB000635DC}|EquityCalculatorAPI\\EquityCalculatorAPI.csproj|d:\\coding\\practice\\dotnet\\equitycalculatorapi\\equitycalculatorapi\\equitycalculatorapi\\model\\equitydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE9CAD58-1DF1-4158-86DC-06DB000635DC}|EquityCalculatorAPI\\EquityCalculatorAPI.csproj|solutionrelative:equitycalculatorapi\\model\\equitydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE9CAD58-1DF1-4158-86DC-06DB000635DC}|EquityCalculatorAPI\\EquityCalculatorAPI.csproj|d:\\coding\\practice\\dotnet\\equitycalculatorapi\\equitycalculatorapi\\equitycalculatorapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EE9CAD58-1DF1-4158-86DC-06DB000635DC}|EquityCalculatorAPI\\EquityCalculatorAPI.csproj|solutionrelative:equitycalculatorapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Coding\\Practice\\DOTNET\\EquityCalculatorAPI\\EquityCalculatorAPI\\EquityCalculatorAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "EquityCalculatorAPI\\appsettings.json",
+              "ToolTip": "D:\\Coding\\Practice\\DOTNET\\EquityCalculatorAPI\\EquityCalculatorAPI\\EquityCalculatorAPI\\appsettings.json",
+              "RelativeToolTip": "EquityCalculatorAPI\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-03-19T05:12:27.159Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EquityController.cs",
+              "DocumentMoniker": "D:\\Coding\\Practice\\DOTNET\\EquityCalculatorAPI\\EquityCalculatorAPI\\EquityCalculatorAPI\\Controllers\\EquityController.cs",
+              "RelativeDocumentMoniker": "EquityCalculatorAPI\\Controllers\\EquityController.cs",
+              "ToolTip": "D:\\Coding\\Practice\\DOTNET\\EquityCalculatorAPI\\EquityCalculatorAPI\\EquityCalculatorAPI\\Controllers\\EquityController.cs",
+              "RelativeToolTip": "EquityCalculatorAPI\\Controllers\\EquityController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T04:50:21.415Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EquityDto.cs",
+              "DocumentMoniker": "D:\\Coding\\Practice\\DOTNET\\EquityCalculatorAPI\\EquityCalculatorAPI\\EquityCalculatorAPI\\Model\\EquityDto.cs",
+              "RelativeDocumentMoniker": "EquityCalculatorAPI\\Model\\EquityDto.cs",
+              "ToolTip": "D:\\Coding\\Practice\\DOTNET\\EquityCalculatorAPI\\EquityCalculatorAPI\\EquityCalculatorAPI\\Model\\EquityDto.cs",
+              "RelativeToolTip": "EquityCalculatorAPI\\Model\\EquityDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T04:28:05.779Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

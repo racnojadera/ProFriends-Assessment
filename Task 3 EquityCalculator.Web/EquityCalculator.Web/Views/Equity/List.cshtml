@@ -1,0 +1,39 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@model List<EquityCalculator.Web.Models.Entities.EquityStatus>
+
+<div class="text-left">
+    <h1 class="display-4">Statements</h1>
+</div>
+
+<table width="800" height="120">
+    <thead>
+        <tr>
+            <th>Balance</th>
+            <th>Due Date</th>
+            <th>Term</th>
+            <th>Amount</th>
+            <th>Interest</th>
+            <th>Insurance</th>
+            <th>Total</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var statement in Model)
+        {
+           <tr>
+               <td>@statement.Balance</td>
+               <td>@statement.DueDate</td>
+               <td>@statement.Term</td>
+               <td>@statement.Amount</td>
+               <td>@statement.Interest</td>
+               <td>@statement.Insurance</td>
+               <td>@statement.Total</td>
+           </tr>
+        }
+    </tbody>
+</table>
